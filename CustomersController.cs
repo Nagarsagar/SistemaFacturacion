@@ -13,7 +13,7 @@ namespace SistemaFacturacion
     {
         private readonly InvoiceSystemContext _context;
 
-        public CustomersController(InvoiceSystemContext context)
+        public CustomersController(IInvoiceSystemContext context)
         {
             _context = context;
         }
